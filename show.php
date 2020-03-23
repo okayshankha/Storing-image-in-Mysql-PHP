@@ -5,6 +5,6 @@
 	</head>
 	<body>
     <!-- !! REMEMBER TO CHANGE ?f=IMAGE TO YOUR UPLOADED IMAGE FILE NAME !! -->
-		<img src="fetch.php?f=<image_name_with_extention>">
+		<img src="fetch.php?f=<?= $_GET['f'] ?>">
 	</body>
 </html>
